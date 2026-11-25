@@ -1,0 +1,20 @@
+{
+  "descripcion": "Capturas de mis páginas web e invitaciones; zoom lento hacia el centro.",
+  "subtitulos": {
+    "fuente": "Arial Black",
+    "tamano": 92,
+    "color": "#FFFFFF",
+    "color_resaltado": "#FFE600",
+    "contorno": 6,
+    "sombra": 2,
+    "margen_inferior": 420,
+    "mayusculas": true,
+    "palabras_por_pantalla": 3
+  },
+  "visual": {
+    "max_fragmento_s": 6.0,
+    "ken_burns_zoom": 0.08,
+    "alternar_zoom": false,
+    "estilo_imagen": "clean modern aesthetic, bright natural light, professional photography, high detail, vertical composition"
+  }
+}

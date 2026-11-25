@@ -1,0 +1,30 @@
+# PyTorch para GPU Pascal (GTX 10xx): usar los wheels de CUDA 12.6 (cu126).
+# Las builds de CUDA 12.8+ ya no incluyen sm_61.
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1+cu126
+torchaudio==2.14.1+cu126
+
+# Transcripción y utilidades
+numpy
+faster-whisper>=1.2
+requests
+python-dotenv
+
+# Imágenes de IA (SD-Turbo local), traductor local de prompts y composición
+pillow
+diffusers>=0.43
+transformers>=5
+accelerate
+sentencepiece
+sacremoses
+
+# Estilo animado (dibujo con skia, composición rápida con OpenCV)
+skia-python
+opencv-python
+
+# Mejora de voz: dependencias de DeepFilterNet. DeepFilterNet en sí se instala aparte SIN dependencias
+# para que no cambie la versión de torch:
+#   pip install --no-deps deepfilternet==0.5.6 deepfilterlib==0.5.6
+loguru
+appdirs
+win32_setctime; sys_platform == "win32"

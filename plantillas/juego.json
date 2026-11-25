@@ -1,0 +1,33 @@
+{
+  "descripcion": "Gameplay; cortes más rápidos.",
+  "subtitulos": {
+    "fuente": "Arial Black",
+    "tamano": 96,
+    "color": "#FFFFFF",
+    "color_resaltado": "#FFE600",
+    "contorno": 7,
+    "sombra": 3,
+    "margen_inferior": 520,
+    "mayusculas": true,
+    "palabras_por_pantalla": 3
+  },
+  "visual": {
+    "max_fragmento_s": 3.0,
+    "ken_burns_zoom": 0.12,
+    "alternar_zoom": true,
+    "estilo_imagen": "video game concept art, dynamic action, vibrant colors, dramatic lighting, vertical composition"
+  },
+  "obs": {
+    "_ayuda": "pista_voz: pista del micrófono (1 = primera). formato: blur | crop | split. facecam (para split): [x, y, ancho, alto] en fracciones, p. ej. [0.75, 0.70, 0.25, 0.30] = esquina inferior derecha.",
+    "pista_voz": 2,
+    "volumen_juego": 0.25,
+    "ducking": true,
+    "silencio_max_s": 0.5,
+    "margen_s": 0.15,
+    "formato": "blur",
+    "zoom_blur": 1.0,
+    "crop_x": 0.5,
+    "facecam": null,
+    "split_alto_juego": 0.6
+  }
+}

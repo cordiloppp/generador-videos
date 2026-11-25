@@ -1,0 +1,20 @@
+{
+  "descripcion": "Fragmentos de máximo 4 s y prioridad a imágenes de entrada/imagenes/.",
+  "subtitulos": {
+    "fuente": "Arial Black",
+    "tamano": 88,
+    "color": "#FFFFFF",
+    "color_resaltado": "#FFE600",
+    "contorno": 6,
+    "sombra": 2,
+    "margen_inferior": 420,
+    "mayusculas": true,
+    "palabras_por_pantalla": 4
+  },
+  "visual": {
+    "max_fragmento_s": 4.0,
+    "ken_burns_zoom": 0.12,
+    "alternar_zoom": true,
+    "estilo_imagen": "cinematic film still, dramatic lighting, 35mm, shallow depth of field, vertical composition"
+  }
+}

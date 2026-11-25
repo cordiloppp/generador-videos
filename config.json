@@ -1,0 +1,80 @@
+{
+  "proveedores": {
+    "transcripcion": ["groq", "local"],
+    "prompt": ["groq", "traductor_local"],
+    "imagen": ["pollinations", "cloudflare", "sd_turbo"]
+  },
+  "pollinations": {
+    "ancho": 1080,
+    "alto": 1920,
+    "modelo": null,
+    "ancho_anonimo": 576,
+    "alto_anonimo": 1024,
+    "intervalo_anonimo_s": 45,
+    "max_espera_s": 50,
+    "timeout_s": 60
+  },
+  "cloudflare": {
+    "modelo": "@cf/black-forest-labs/flux-1-schnell",
+    "pasos": 4,
+    "neurons_por_imagen": 60,
+    "limite_diario": 9000
+  },
+  "sd_turbo": {
+    "modelo": "stabilityai/sd-turbo",
+    "pasos": 2,
+    "ancho": 512,
+    "alto": 912
+  },
+  "timeouts": {
+    "verificacion_s": 5,
+    "conexion_s": 10,
+    "subida_base_s": 60,
+    "subida_por_mb_s": 6
+  },
+  "groq": {
+    "modelo_transcripcion": "whisper-large-v3",
+    "idioma": "es",
+    "max_mb_por_parte": 24,
+    "traslape_s": 2.0,
+    "kbps": 64,
+    "peticiones_por_minuto": 20,
+    "segundos_audio_por_hora": 7200,
+    "segundos_audio_por_dia": 28800,
+    "reintentos_429": 2,
+    "max_espera_429_s": 60,
+    "modelos_llm": ["openai/gpt-oss-120b", "openai/gpt-oss-20b", "qwen/qwen3.8-27b"],
+    "llm_peticiones_por_minuto": 30
+  },
+  "whisper_local": {
+    "modelo": "medium",
+    "idioma": "es",
+    "beam_size": 5,
+    "compute_type_gpu": "int8",
+    "compute_type_cpu": "int8"
+  },
+  "mejora_voz": {
+    "activar": true,
+    "reduccion_ruido": true,
+    "limite_reduccion_db": null,
+    "ecualizar": true,
+    "de_esser": true,
+    "compresor": true
+  },
+  "frases": {
+    "min_s": 2.0,
+    "max_s": 8.0,
+    "pausa_s": 0.45,
+    "pausa_fuerte_s": 0.9
+  },
+  "video": {
+    "ancho": 1080,
+    "alto": 1920,
+    "fps": 30,
+    "nvenc_cq": 21,
+    "x264_crf": 20,
+    "audio_kbps": 192,
+    "normalizar_volumen": true,
+    "lufs": -14
+  }
+}

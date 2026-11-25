@@ -1,0 +1,10 @@
+{
+  "descripcion": "Escenario de papel animado: título en papel, objetos tipo sticker, contadores, etiquetas, mascota y subtítulos en tarjetas.",
+  "visual": {
+    "tipo": "animado",
+    "max_fragmento_s": 5.0,
+    "paleta": "auto",
+    "_paletas": "auto | verde | morado | rojo | azul | mostaza | turquesa | rosa",
+    "marca": "@tu_cuenta"
+  }
+}
