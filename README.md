@@ -4,6 +4,8 @@ Arma videos verticales 1080x1920 automáticamente a partir de tu voz. Usa servic
 gratuitos cuando hay clave e internet, y si no, hace todo en local. **Nunca se detiene por
 un servicio externo**: si uno falla, pasa al siguiente y lo anota en `plan.json`.
 
+<p align="center"><img src="docs/ejemplo.webp" alt="Cuadro de un video generado (estilo animado)" width="300"></p>
+
 > Estado: **estilo animado** (plantilla `animado`: escenario de papel dibujado por código),
 > **modo normal con imágenes de IA** (solo tu audio -> una imagen por frase con zoom suave)
 > y **modo OBS básico** (jump cuts, vertical, ducking, subtítulos, división en shorts).
